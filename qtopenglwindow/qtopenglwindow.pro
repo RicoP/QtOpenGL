@@ -18,6 +18,8 @@ HEADERS += \
     qebtimewheel.h
 FORMS +=
 
+DEFINES += GL_GLEXT_PROTOTYPES
+
 # Please do not modify the following two lines. Required for deployment.
 include(deployment.pri)
 qtcAddDeployment()
